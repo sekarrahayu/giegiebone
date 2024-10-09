@@ -1,0 +1,88 @@
+.navbar{
+    background-image: linear-gradient( rgb(255, 195, 205),  rgb(255, 156, 173));
+}
+.maintextnav{
+    height: 150px;
+    width: 150px;
+    margin-top: -15%;
+    margin-bottom: -10%;
+    margin-left: -5%;
+}
+
+.brandtext {
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+.fedoka-300 {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+.text1,.text2,.text3{
+    color: white;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+}
+.gapnav{
+    display: flex;
+    gap: 10px;
+}
+.lastwrapnav{
+    margin-top: 5%;
+}
+.wrapcard{
+    height: 70%;
+    width: 100%;
+    padding: 20%;
+    margin-top: -10%;
+    margin-bottom: -10%;
+}
+.wrap2crd{
+    width: 100%;
+}
+.wrapcontact{
+    background-image: linear-gradient(rgb(255, 84, 113), rgb(255, 195, 205));
+}
+.wrapaddress{
+    background-image: linear-gradient(rgb(255, 195, 205), rgb(255, 84, 113));
+}
+.contact,.address{
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.link{
+    margin-bottom: 1rem;
+}
+.logowa,.logolocation{
+    height: 45px;
+    width: 45px;
+    margin-top: 1.5rem;
+}
+#contactid:focus{
+    border: 2px solid red;
+}
+@media (min-width: 769px){
+    .wrapcard{
+        height: 300px;
+        width: 100%;
+        padding: 10%;
+        margin-top: 0;
+        margin-bottom: -50%;
+    }
+    .wrap2crd{
+        width: 100%;
+    }
+    .imglogo{
+        height: 100%;
+        width: 100%;
+    }
+}
