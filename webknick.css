@@ -1,14 +1,6 @@
 .navbar{
     background-image: linear-gradient( rgb(255, 195, 205),  rgb(255, 156, 173));
 }
-.maintextnav{
-    height: 150px;
-    width: 150px;
-    margin-top: -15%;
-    margin-bottom: -10%;
-    margin-left: -5%;
-}
-
 .brandtext {
     font-family: "Rye", serif;
     font-weight: 400;
@@ -23,7 +15,6 @@
     font-style: normal;
     
 }
-
 .text1,.text2,.text3{
     color: white;
 }
@@ -49,10 +40,10 @@
     width: 100%;
 }
 .wrapcontact{
-    background-image: linear-gradient(rgb(255, 84, 113), rgb(255, 195, 205));
+    background-image: linear-gradient(rgb(253, 51, 156), rgb(255, 172, 186));
 }
 .wrapaddress{
-    background-image: linear-gradient(rgb(255, 195, 205), rgb(255, 84, 113));
+    background-image: linear-gradient(rgb(255, 172, 186), white);
 }
 .contact,.address{
     color: black;
@@ -70,7 +61,15 @@
 #contactid:focus{
     border: 2px solid red;
 }
-@media (min-width: 769px){
+.imgproduct{
+    height: 95%;
+    width: 80%;
+}
+.logojustify{
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 769px) and (max-width: 1080px){
     .wrapcard{
         height: 300px;
         width: 100%;
