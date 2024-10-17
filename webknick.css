@@ -61,20 +61,24 @@
 #contactid:focus{
     border: 2px solid red;
 }
-.imgproduct{
-    height: 95%;
-    width: 80%;
-}
 .logojustify{
     display: flex;
     justify-content: center;
+}
+.mountain{
+    margin-top: -90px;
+}
+.container{
+    max-width: 100%;
 }
 @media (min-width: 769px) and (max-width: 1080px){
     .wrapcard{
         height: 300px;
         width: 100%;
         padding: 10%;
-        margin-top: 0;
+        margin-top: 10%;
+    }
+    .wrapcard1{
         margin-bottom: -50%;
     }
     .wrap2crd{
@@ -83,5 +87,11 @@
     .imglogo{
         height: 100%;
         width: 100%;
+    }
+    .mountain{
+        margin-top: 100px;
+    }
+    .lastcard{
+        margin-bottom: 0;
     }
 }
