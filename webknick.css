@@ -71,6 +71,14 @@
 .container{
     max-width: 100%;
 }
+
+.ps{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 5;
+}
+
 @media (min-width: 769px) and (max-width: 1080px){
     .wrapcard{
         height: 300px;
