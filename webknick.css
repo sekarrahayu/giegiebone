@@ -71,15 +71,26 @@
 .container{
     max-width: 100%;
 }
-
 .ps{
     position: fixed;
     top: 0px;
     width: 100%;
     z-index: 5;
 }
+.height{
+    height: 300px;
+}
+.margincarousel{
+    margin-top: 90px;
+}
 
-@media (min-width: 769px) and (max-width: 1080px){
+@media (min-width: 641px) and (max-width: 767px) {
+    .height{
+        height: 450px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 990px){
     .wrapcard{
         height: 300px;
         width: 100%;
@@ -97,9 +108,43 @@
         width: 100%;
     }
     .mountain{
-        margin-top: 100px;
+        margin-top: 150px;
     }
     .lastcard{
         margin-bottom: 0;
+    }
+    .height{
+        height: 500px;
+    }
+    .paddingcrd{
+        padding: 20px;
+    }
+    .wrapcard1{
+        height: 50px;
+    }
+    .lastcard{
+        height: 50px;
+        margin-bottom: 150px;
+    }
+}
+@media (min-width: 991px) {
+    .height{
+        height: 650px;
+    }
+    .margincarousel{
+        margin-top: 130px;
+    }
+    .paddingcrd{
+        padding: 80px;
+    }
+    .wrapcard1{
+        height: 50px;
+    }
+    .lastcard{
+        height: 50px;
+        margin-bottom: 200px;
+    }
+    .mountain{
+        margin-top: 100px;
     }
 }
