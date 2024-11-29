@@ -31,7 +31,8 @@
 }
 .wrapcard{
     width: 100%;
-    padding: 100px;
+    padding-block: 80px;
+    padding-inline: 60px;
 }
 .wrapcontact{
     background-image: linear-gradient(rgb(253, 51, 156), rgb(255, 172, 186));
@@ -77,11 +78,20 @@
 .paddingcrd{
     text-align: center;
 }
+.button{
+    background-color: rgb(255, 156, 173);
+    color: white;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    padding-inline: 30px;
+    padding-block: 15px;
+}
 
 @media (min-width: 769px) and (max-width: 990px){
     .wrapcard{
         width: 100%;
-        padding-inline: 230px;
+        padding-inline: 170px;
         padding-block: 80px;
         margin-top: 0;
         margin-bottom: 0;
