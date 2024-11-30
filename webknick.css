@@ -37,9 +37,6 @@
 .wrapcontact{
     background-image: linear-gradient(rgb(253, 51, 156), rgb(255, 172, 186));
 }
-.wrapaddress{
-    background-image: linear-gradient(rgb(255, 172, 186), white);
-}
 .contact,.address{
     color: black;
     margin-top: 1rem;
@@ -86,6 +83,12 @@
     align-content: center;
     padding-inline: 30px;
     padding-block: 15px;
+}
+.hvr:hover{
+    color: white;
+}
+.waig:hover{
+    color: black;
 }
 
 @media (min-width: 769px) and (max-width: 990px){
