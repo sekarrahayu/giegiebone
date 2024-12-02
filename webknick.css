@@ -1,6 +1,7 @@
-.navbar{
-    background-image: linear-gradient( rgb(255, 195, 205),  rgb(255, 156, 173));
+.navbar {
+    background-image: linear-gradient(rgb(255, 195, 205), rgb(255, 156, 173));
 }
+
 .brandtext {
     font-family: "Rye", serif;
     font-weight: 400;
@@ -13,69 +14,90 @@
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    
+
 }
-.text1,.text2,.text3{
+
+.text1,
+.text2,
+.text3 {
     color: white;
 }
-.logo{
+
+.logo {
     height: 70px;
     width: 70px;
 }
-.gapnav{
+
+.gapnav {
     display: flex;
     gap: 10px;
 }
-.lastwrapnav{
+
+.lastwrapnav {
     margin-top: 5%;
 }
-.wrapcard{
+
+.wrapcard {
     width: 100%;
     padding-block: 80px;
     padding-inline: 60px;
 }
-.wrapcontact{
+
+.wrapcontact {
     background-image: linear-gradient(rgb(253, 51, 156), rgb(255, 172, 186));
 }
-.contact,.address{
+
+.contact,
+.address {
     color: black;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-.link{
+
+.link {
     margin-bottom: 1rem;
 }
-.logowa,.logolocation{
+
+.logowa,
+.logolocation {
     height: 45px;
     width: 45px;
     margin-top: 1.5rem;
 }
-#contactid:focus{
+
+#contactid:focus {
     border: 2px solid red;
 }
-.logojustify{
+
+.logojustify {
     display: flex;
     justify-content: center;
 }
-.mountain{
+
+.mountain {
     margin-top: -20px;
 }
-.container{
+
+.container {
     max-width: 100%;
 }
-.ps{
+
+.ps {
     position: fixed;
     top: 0px;
     width: 100%;
     z-index: 5;
 }
-.margincarousel{
+
+.margincarousel {
     margin-top: 80px;
 }
-.paddingcrd{
+
+.paddingcrd {
     text-align: center;
 }
-.button{
+
+.button {
     background-color: rgb(255, 156, 173);
     color: white;
     width: 100%;
@@ -84,52 +106,68 @@
     padding-inline: 30px;
     padding-block: 15px;
 }
-.hvr:hover{
+.hvr {
     color: white;
 }
-.waig:hover{
+
+.hvr:hover {
     color: black;
 }
 
-@media (min-width: 769px) and (max-width: 990px){
-    .wrapcard{
+.waig:hover {
+    color: black;
+}
+.transform:hover{
+    transform: scale(1.1);
+    transition: all ease 0.3s;
+}
+
+@media (min-width: 769px) and (max-width: 990px) {
+    .wrapcard {
         width: 100%;
         padding-inline: 170px;
         padding-block: 80px;
         margin-top: 0;
         margin-bottom: 0;
     }
-    .logojustify{
+
+    .logojustify {
         padding-right: 20px;
     }
 }
+
 @media (min-width: 991px) and (max-width: 1379px) {
-    .wrapcard{
+    .wrapcard {
         width: 100%;
         padding-inline: 130px;
         padding-block: 80px;
         margin-top: 0;
         margin-bottom: 0;
     }
-    .paddingcrd{
+
+    .paddingcrd {
         padding: 80px;
     }
-    .mountain{
+
+    .mountain {
         margin-top: -100px;
     }
 }
+
 @media (min-width: 1380px) {
-    .wrapcard{
+    .wrapcard {
         width: 100%;
         padding-inline: 280px;
         padding-block: 80px;
         margin-top: 0;
         margin-bottom: 0;
     }
-    .paddingcrd{
+
+    .paddingcrd {
         padding: 80px;
     }
-    .mountain{
+
+    .mountain {
         margin-top: -100px;
     }
 }
